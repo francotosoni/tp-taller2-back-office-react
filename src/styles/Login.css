@@ -1,0 +1,96 @@
+html,
+body,
+#root,
+.app,
+.content {
+  height: 100%;
+  width: 100%;
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+.logo-login{
+  border-radius: 100px;
+}
+
+.container-login {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+  margin-top: 250px;
+  gap: 100px;
+  align-items: center;
+}
+
+.container-form-login {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: left;
+  gap: 25px;
+}
+
+.title-form-login {
+  color: black;
+  font-size: 56px;
+}
+.subtitle-form-login {
+  color: white;
+  font-size: 36px;
+}
+
+.container-form {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  border-color: black;
+  border-radius: 30px;
+  border-width: 1.5px;
+  border-style: solid;
+  padding: 10px;
+}
+
+.input-form {
+  background-color: white;
+  border: 0;
+  font-size: 14px;
+  color: black;
+}
+
+.input-form:focus {
+  outline: none;
+}
+
+.title-form {
+  font-size: 16px;
+  color: black;
+}
+
+.btn-login {
+  font-size: 16px;
+  border-radius: 15px;
+  background-color: #ffffff;
+  color: black;
+  width: 100%;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+textarea:-webkit-autofill,
+textarea:-webkit-autofill:hover,
+textarea:-webkit-autofill:focus,
+select:-webkit-autofill,
+select:-webkit-autofill:hover,
+select:-webkit-autofill:focus {
+  border: 1px solid;
+  -webkit-text-fill-color: black;
+  -webkit-box-shadow: 0 0 0px 1000px #ffffff inset;
+  transition: background-color 5000s ease-in-out 0s;
+}
